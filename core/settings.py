@@ -131,4 +131,4 @@ EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'parzival00007@gmail.com'
 
 
-CELERY_BROKER_URL = 'redis://:glglyaeQDQ50Gl0WwDAfvi0GJPYjfA64eAzCaHClyLs=@redisssssssssss.redis.cache.windows.net:6380'
+
