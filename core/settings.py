@@ -131,4 +131,9 @@ EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'parzival00007@gmail.com'
 
 
-
+CELERY_BROKER_URL = 'redis://:00YjWC4tuqnyXspFIHagSgowPJcQIaUacAzCaLnmNh0=@experiment.redis.cache.windows.net:6379/0'
+CELERY_RESULT_BACKEND = 'redis://:00YjWC4tuqnyXspFIHagSgowPJcQIaUacAzCaLnmNh0=@experiment.redis.cache.windows.net:6379/10'
+CELERY_ACCEPT_CONTENT = ["pickle", "json"]
+CELERY_TASK_SERIALIZER = "pickle"
+CELERY_RESULT_SERIALIZER = "pickle"
+BROKER_HEARTBEAT = 60
